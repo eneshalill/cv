@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(./Enesweb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0,9;
+
+
+
+display: flex;  
+flex-direction: column;
+}
+main{
+
+flex-grow: 1;
+
+}
+header {
+  position: sticky;
+  height: fit-content;
+  background-color: #e5f7c0;
+
+}
+
+.logo{
+
+  display: flex;
+  /* gap: 900px; */
+justify-content: space-between;
+
+}
+
+
+
+ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 40px;
+
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: #fbfbaf;
+
+  height: 30px;
+  width: 50;
+  list-style-type: none;
+ padding-right: 20px;
+}
+
+ul li a {
+  padding-right: 30px;
+  background-color: #ccdcf9;
+
+  border-radius: 13%;
+ color: #f40808;
+}
+ul li a:hover {
+
+  background-color: #06010b;
+
+
+ color: #fafaf6;
+}
+
+nav {
+  padding-top: 1px;
+width: 30%;
+padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #085dfa;
+}
+h2 {
+  color: #f00687;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+padding-bottom: 40px;
+
+
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding-top: 100px;
+}
+
+main {
+  background-color: #fcdeabac;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+}
+
+table {
+  border-collapse: separate;
+
+  border-spacing: 20px 10px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+}
+
+th,
+td {
+  border: 1px solid;
+  padding: 10px;
+}
+
+th {
+  color: #1c056f;
+}
+
+td {
+  color: #050101;
+}
+
+h4 {
+  font-size: 30px;
+}
+h3 h5,
+h3 {
+  font-size: 30px;
+  color: rgb(121, 50, 243);
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+button {
+  font-size: 25px;
+  background-color: #e9a9d1;
+  border-radius: 10px;
+}
+
+table {
+  width: 950px;
+}
+
+/* تعليمة لتحريك النص */
+
+.text {
+  font-size: 29px;
+  color: #333;
+  animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* قسم التواصل */
+.sectionT {
+  /* margin-left: 200px;
+  padding-top: 30px;
+
+padding-bottom: 10px;
+padding-left: 650px;
+height: 300px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+footer {
+  padding-top: 30px;
+  height: 60px;
+  padding-left: 730px;
+
+  background-color: hsl(341, 100%, 75%);
+}
+
+/* footer :hover  { */
+
+  /* background-color: #a79ea4; */
+
+
+.pr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* من ان */
+.article {
+  padding-left: 40px;
+  height: 550px;
+  padding-top: 20px;
+}
+
+.hh1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
